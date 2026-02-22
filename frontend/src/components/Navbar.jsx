@@ -29,9 +29,7 @@ export function Navbar() {
       <div className="container">
         <div className="nav-inner">
           <a className="brand" href="#" aria-label={`${SITE.name} home`}>
-            <span className="brand-title">
-              <strong>{SITE.name}</strong>
-            </span>
+            <img src="/images/logo.png" alt={SITE.name} className="brand-logo" />
           </a>
 
           <nav className="nav-links" aria-label="Primary">

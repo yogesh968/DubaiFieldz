@@ -52,18 +52,17 @@
   align-items: center;
 }
 
-.brand-title {
-  font-family: 'Outfit', sans-serif;
-  font-size: 20px;
-  letter-spacing: -0.02em;
+.brand-logo {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+  transition: filter var(--dur) var(--ease);
 }
 
-.brand-title strong {
-  font-weight: 800;
-  color: var(--text-main);
+.nav-solid .brand-logo {
+  filter: invert(1);
 }
 
-.nav-transparent .brand-title strong,
 .nav-transparent .nav-link,
 .nav-transparent .btn-primary {
   /* When hero is dark, nav items are light */

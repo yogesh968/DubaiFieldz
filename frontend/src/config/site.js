@@ -10,7 +10,7 @@ export const SITE = {
 export const LINKS = {
   playo: 'https://playo.co/',
   huddle: 'https://huddle.gg/',
-  instagram: 'https://instagram.com/',
+  instagram: 'https://www.instagram.com/dubai.fieldz/',
   whatsapp: 'https://wa.me/91XXXXXXXXXX',
   phone: 'tel:+91XXXXXXXXXX',
 }

@@ -43,8 +43,8 @@ export default function Home() {
       <section className="hero" id="home">
         <div className="hero-bleed" aria-label="Hero">
           <div className="hero-video" aria-hidden="true">
-            <video autoPlay loop muted playsInline poster="https://images.pexels.com/photos/3212317/pexels-photo-3212317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-              <source src="https://videos.pexels.com/video-files/9517846/9517846-uhd_4096_2160_24fps.mp4" type="video/mp4" />
+            <video autoPlay loop muted playsInline preload="auto" poster="/images/sport-football.jpg">
+              <source src="/videos/hero-bg.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="container hero-inner">
@@ -83,7 +83,7 @@ export default function Home() {
             </Reveal>
             <Reveal className="about-visual" delay={200}>
               <div className="about-img" style={{
-                backgroundImage: 'url(https://images.pexels.com/photos/3212317/pexels-photo-3212317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)',
+                backgroundImage: 'url(/images/about-img.jpg)',
                 aspectRatio: '4 / 5',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
@@ -120,7 +120,7 @@ export default function Home() {
               number="03"
               title="Pickleball"
               caption="Professional grade hardcourt. High visibility lines and spacious boundaries for the ultimate racquet experience."
-              imgSrc="https://images.pexels.com/photos/29439346/pexels-photo-29439346.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              imgSrc="/images/sport-pickleball.jpg"
             />
           </div>
         </div>
@@ -190,22 +190,22 @@ export default function Home() {
           </Reveal>
           <div className="gallery-layout atmosphere-grid">
             <Reveal delay={100} className="atmosphere-item">
-              <img src="https://images.pexels.com/photos/47730/the-ball-stadion-football-the-pitch-47730.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Football detail" className="atm-img" />
+              <img src="/images/sport-football.jpg" alt="Football detail" className="atm-img" />
             </Reveal>
             <Reveal delay={200} className="atmosphere-item">
-              <img src="https://images.pexels.com/photos/34563722/pexels-photo-34563722/free-photo-of-red-cricket-ball-on-lush-green-grass-field.png?auto=compress&cs=tinysrgb&w=1200" alt="Cricket detail" className="atm-img" />
+              <img src="/images/sport-cricket.jpg" alt="Cricket detail" className="atm-img" />
             </Reveal>
             <Reveal delay={300} className="atmosphere-item">
-              <img src="https://images.pexels.com/photos/32896996/pexels-photo-32896996.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Pickleball detail" className="atm-img" />
+              <img src="/images/sport-pickleball.jpg" alt="Pickleball detail" className="atm-img" />
             </Reveal>
             <Reveal delay={400} className="atmosphere-item">
-              <img src="https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Night turf" className="atm-img" />
+              <img src="/images/gallery-new-3.jpg" alt="Overhead courts view" className="atm-img" />
             </Reveal>
             <Reveal delay={500} className="atmosphere-item">
-              <img src="https://images.pexels.com/photos/2097616/pexels-photo-2097616.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Stadium lights" className="atm-img" />
+              <img src="/images/gallery-new-2.jpg" alt="Pickleball action" className="atm-img" />
             </Reveal>
             <Reveal delay={600} className="atmosphere-item">
-              <img src="https://images.pexels.com/photos/54567/pexels-photo-54567.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Turf texture" className="atm-img" />
+              <img src="/images/gallery-new-1.jpg" alt="Wide facility view" className="atm-img" />
             </Reveal>
           </div>
         </div>
@@ -247,7 +247,7 @@ export default function Home() {
                 <p className="muted">
                   Open 24/7, all days.<br />
                   <a href={LINKS.whatsapp} target="_blank" rel="noreferrer" className="contact-link">+91 99999 00000</a><br />
-                  <a href="mailto:hello@dubaifieldz.com" className="contact-link">hello@dubaifieldz.com</a>
+                  <a href="mailto:dubaifieldz@gmail.com" className="contact-link">dubaifieldz@gmail.com</a>
                 </p>
               </div>
               <div className="contact-block">
