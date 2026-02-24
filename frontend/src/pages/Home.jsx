@@ -83,8 +83,8 @@ export default function Home() {
             </Reveal>
             <Reveal className="about-visual" delay={200}>
               <div className="about-img" style={{
-                backgroundImage: 'url(/images/about-img.jpg)',
-                aspectRatio: '4 / 5',
+                backgroundImage: 'url(/images/gallery-new-1.jpg)',
+                aspectRatio: '16 / 9',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 borderRadius: 'var(--radius-sm)'
