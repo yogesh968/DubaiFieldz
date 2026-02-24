@@ -65,8 +65,9 @@
 
 .nav-transparent .nav-link,
 .nav-transparent .btn-primary {
-  /* When hero is dark, nav items are light */
+  /* When hero is bright without overlay, nav items need text shadow */
   color: var(--text-inverse) !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .nav-links {
@@ -225,7 +226,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(18, 18, 18, 0.8) 0%, rgba(18, 18, 18, 0.3) 50%, rgba(18, 18, 18, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   z-index: 1;
 }
 
@@ -238,6 +239,20 @@
 
 .hero-content {
   max-width: 800px;
+}
+
+.hero-title {
+  color: var(--text-inverse);
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+  color: var(--text-main);
+  text-shadow: none;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 16px;
+  line-height: 1.4;
 }
 
 @media (max-width: 768px) {

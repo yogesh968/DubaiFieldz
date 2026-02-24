@@ -34,7 +34,7 @@ export function useSeo({ title, description }) {
 
     const desc =
       description ||
-      'Premium 24/7 sports turf in Sector 74, Gurugram. Football (6v6), Box Cricket, and Pickleball. Book via Playo or Huddle.'
+      'Premium 24/7 sports turf in Sector 74, Gurugram. Football (6v6), Box Cricket, and Pickleball. Book via Playo or District.'
 
     upsertMetaByName('description', desc)
     upsertMetaByProperty('og:title', fullTitle)

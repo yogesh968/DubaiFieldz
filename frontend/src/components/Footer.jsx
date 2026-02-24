@@ -12,11 +12,11 @@ export function Footer() {
             <a href={LINKS.playo} target="_blank" rel="noreferrer">
               Playo
             </a>
-            <a href={LINKS.huddle} target="_blank" rel="noreferrer">
-              Huddle
+            <a href={LINKS.district} target="_blank" rel="noreferrer">
+              District
             </a>
-            <a href={LINKS.instagram} target="_blank" rel="noreferrer">
-              Instagram
+            <a href={LINKS.hudle} target="_blank" rel="noreferrer">
+              Hudle
             </a>
           </span>
         </div>

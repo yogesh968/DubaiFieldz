@@ -57,8 +57,8 @@ export default function Home() {
                   <Button as="a" href={LINKS.playo} target="_blank" rel="noreferrer" variant="primary">
                     Book on Playo
                   </Button>
-                  <Button as="a" href={LINKS.huddle} target="_blank" rel="noreferrer" variant="outline">
-                    Book on Hudle
+                  <Button as="a" href={LINKS.district} target="_blank" rel="noreferrer" variant="outline">
+                    Book on District
                   </Button>
                 </div>
               </Reveal>
@@ -161,8 +161,8 @@ export default function Home() {
                   <Button as="a" href={LINKS.playo} target="_blank" rel="noreferrer" variant="primary">
                     Book on Playo
                   </Button>
-                  <Button as="a" href={LINKS.huddle} target="_blank" rel="noreferrer" variant="outline-inverse">
-                    Book on Hudle
+                  <Button as="a" href={LINKS.district} target="_blank" rel="noreferrer" variant="outline-inverse">
+                    Book on District
                   </Button>
                 </div>
               </Reveal>
@@ -222,14 +222,14 @@ export default function Home() {
           <div className="contact-grid">
             <Reveal className="contact-map">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14035.787834720937!2d76.98595701738279!3d28.42084530000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1820464c2bf1%3A0xc48c081e7d2358fb!2sSector%2074%2C%20Gurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1708514931872!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.226286553529!2d77.00864017506319!3d28.41242809404266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d23a3b9fab563%3A0xdb1e3bec4aae080e!2sDubai%20Fieldz!5e0!3m2!1sen!2sin!4v1771910677530!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '400px', borderRadius: 'var(--radius-sm)', filter: 'grayscale(100%) contrast(1.2) opacity(0.8)' }}
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Sector 74 Map"
+                title="Dubai Fieldz Map"
               ></iframe>
             </Reveal>
             <Reveal className="contact-info" delay={100}>
@@ -237,16 +237,14 @@ export default function Home() {
                 <h3 className="h3">Address</h3>
                 <p>
                   <strong>{SITE.name}</strong><br />
-                  {SITE.addressLine}<br />
-                  Sector 74, Gurugram<br />
-                  Haryana, India
+                  {SITE.addressLine}
                 </p>
               </div>
               <div className="contact-block">
                 <h3 className="h3">Connectivity</h3>
                 <p className="muted">
                   Open 24/7, all days.<br />
-                  <a href={LINKS.whatsapp} target="_blank" rel="noreferrer" className="contact-link">+91 99999 00000</a><br />
+                  <a href={LINKS.whatsapp} target="_blank" rel="noreferrer" className="contact-link">+91 78383 83583</a><br />
                   <a href="mailto:dubaifieldz@gmail.com" className="contact-link">dubaifieldz@gmail.com</a>
                 </p>
               </div>
@@ -254,7 +252,7 @@ export default function Home() {
                 <h3 className="h3">Follow Us</h3>
                 <p className="muted">
                   <a href={LINKS.instagram} target="_blank" rel="noreferrer" className="contact-link">Instagram</a> /
-                  <a href={LINKS.facebook} target="_blank" rel="noreferrer" className="contact-link" style={{ marginLeft: 8 }}>Facebook</a>
+                  <a href={LINKS.whatsapp} target="_blank" rel="noreferrer" className="contact-link" style={{ marginLeft: 8 }}>Whatsapp</a>
                 </p>
               </div>
             </Reveal>

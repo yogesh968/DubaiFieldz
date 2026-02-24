@@ -76,7 +76,7 @@ export default function About() {
               },
               {
                 t: 'Fast online booking',
-                d: 'No complicated forms here. View slots and confirm instantly via Playo or Huddle.',
+                d: 'No complicated forms here. View slots and confirm instantly via Playo or District.',
               },
             ].map((x) => (
               <div className="card" key={x.t}>
@@ -90,8 +90,8 @@ export default function About() {
             <Button as="a" href={LINKS.playo} target="_blank" rel="noreferrer" variant="primary">
               Book on Playo
             </Button>
-            <Button as="a" href={LINKS.huddle} target="_blank" rel="noreferrer">
-              Book on Huddle
+            <Button as="a" href={LINKS.district} target="_blank" rel="noreferrer">
+              Book on District
             </Button>
           </div>
         </div>

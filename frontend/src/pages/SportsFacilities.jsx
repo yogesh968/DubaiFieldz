@@ -42,7 +42,7 @@ export default function SportsFacilities() {
   useSeo({
     title: 'Sports & Facilities',
     description:
-      'Explore Dubai Fieldz facilities in Sector 74, Gurugram: Football Turf (6v6), Box Cricket Pitch, and Pickleball Court. Book via Playo or Huddle.',
+      'Explore Dubai Fieldz facilities in Sector 74, Gurugram: Football Turf (6v6), Box Cricket Pitch, and Pickleball Court. Book via Playo or District.',
   })
 
   return (
@@ -52,7 +52,7 @@ export default function SportsFacilities() {
         <h1>Three sports. One premium experience.</h1>
         <p className="page-lead">
           Designed for high-energy play, clean operations, and strong lighting for night sessions.
-          Final slots and payments are handled on Playo / Huddle.
+          Final slots and payments are handled on Playo / District.
         </p>
 
         <div className="grid" style={{ marginTop: 18 }}>

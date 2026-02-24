@@ -22,8 +22,8 @@ function PriceCard({ title, price, note, points }) {
         <Button as="a" href={LINKS.playo} target="_blank" rel="noreferrer" variant="primary" size="sm">
           Check slots on Playo
         </Button>
-        <Button as="a" href={LINKS.huddle} target="_blank" rel="noreferrer" size="sm">
-          Check slots on Huddle
+        <Button as="a" href={LINKS.district} target="_blank" rel="noreferrer" size="sm">
+          Check slots on District
         </Button>
       </div>
     </div>
@@ -34,7 +34,7 @@ export default function PricingOffers() {
   useSeo({
     title: 'Pricing & Offers',
     description:
-      'Dubai Fieldz pricing & offers for Box Cricket and Pickleball in Sector 74, Gurugram. Final slots, pricing, and payments are handled via Playo / Huddle.',
+      'Dubai Fieldz pricing & offers for Box Cricket and Pickleball in Sector 74, Gurugram. Final slots, pricing, and payments are handled via Playo / District.',
   })
 
   return (
@@ -44,7 +44,7 @@ export default function PricingOffers() {
         <h1>Simple, transparent offers.</h1>
         <p className="page-lead">
           Prices shown below are promotional starting points. Final slot pricing, availability, and
-          payments are handled on Playo / Huddle.
+          payments are handled on Playo / District.
         </p>
 
         <div className="cards-3" style={{ marginTop: 18 }}>
@@ -55,7 +55,7 @@ export default function PricingOffers() {
             points={[
               'Great for groups & corporate teams',
               'Fast format, high energy',
-              'Book & pay on Playo/Huddle',
+              'Book & pay on Playo/District',
             ]}
           />
           <PriceCard
@@ -65,7 +65,7 @@ export default function PricingOffers() {
             points={[
               'Beginner-friendly',
               'Perfect for doubles',
-              'Book & pay on Playo/Huddle',
+              'Book & pay on Playo/District',
             ]}
           />
           <PriceCard
@@ -75,7 +75,7 @@ export default function PricingOffers() {
             points={[
               'LED floodlights for night play',
               'Premium turf feel & traction',
-              'Live pricing on Playo/Huddle',
+              'Live pricing on Playo/District',
             ]}
           />
         </div>
@@ -83,7 +83,7 @@ export default function PricingOffers() {
         <div className="callout" style={{ marginTop: 16 }}>
           <div className="kicker">Important</div>
           <p className="muted" style={{ margin: '10px 0 0' }}>
-            We do not take bookings on this website. Please use Playo or Huddle to view live slots,
+            We do not take bookings on this website. Please use Playo or District to view live slots,
             confirm pricing, and complete payments securely.
           </p>
           <div style={{ marginTop: 12, display: 'flex', gap: 10, flexWrap: 'wrap' }}>

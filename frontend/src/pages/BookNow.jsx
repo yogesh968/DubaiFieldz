@@ -6,7 +6,7 @@ export default function BookNow() {
   useSeo({
     title: 'Book Now',
     description:
-      'Dubai Fieldz bookings are handled externally. Book Football (6v6), Box Cricket, or Pickleball via Playo or Huddle.',
+      'Dubai Fieldz bookings are handled externally. Book Football (6v6), Box Cricket, or Pickleball via Playo or District.',
   })
 
   return (
@@ -15,7 +15,7 @@ export default function BookNow() {
         <div className="kicker">Book now</div>
         <h1>We do not take bookings on this website.</h1>
         <p className="page-lead">
-          All slots, pricing and payments are handled by Playo & Huddle. Choose a platform below to
+          All slots, pricing and payments are handled by Playo & District. Choose a platform below to
           view live availability and confirm your booking.
         </p>
 
@@ -37,15 +37,15 @@ export default function BookNow() {
 
           <div className="card">
             <div className="card-top">
-              <h2 className="h2">Book on Huddle</h2>
+              <h2 className="h2">Book on District</h2>
               <span className="pill">External</span>
             </div>
             <p style={{ marginTop: 12 }}>
-              Check availability and pricing directly on Huddle.
+              Check availability and pricing directly on District.
             </p>
             <div style={{ marginTop: 14 }}>
-              <Button as="a" href={LINKS.huddle} target="_blank" rel="noreferrer">
-                Open Huddle
+              <Button as="a" href={LINKS.district} target="_blank" rel="noreferrer">
+                Open District
               </Button>
             </div>
           </div>
@@ -56,15 +56,14 @@ export default function BookNow() {
               <span className="pill">Support</span>
             </div>
             <p style={{ marginTop: 12 }}>
-              If you’re coordinating a corporate game or a large group, reach out for guidance
-              (contact details are placeholders for now).
+              If you’re coordinating a corporate game or a large group, reach out for guidance.
             </p>
             <div style={{ marginTop: 14, display: 'flex', gap: 10, flexWrap: 'wrap' }}>
               <Button as="link" to="/location" variant="ghost">
                 Location & contact
               </Button>
               <Button as="a" href={LINKS.whatsapp} target="_blank" rel="noreferrer">
-                WhatsApp (placeholder)
+                WhatsApp
               </Button>
             </div>
           </div>
@@ -78,7 +77,7 @@ export default function BookNow() {
           </p>
         </div>
       </div>
-    </section>
+    </section >
   )
 }
 
