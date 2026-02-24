@@ -51,7 +51,6 @@ export default function Home() {
             <div className="hero-content">
               <Reveal>
                 <h1 className="h1 hero-title">Elevate Your<br />Game.</h1>
-                <p className="hero-subtitle">Premium sports turf in Sector 74, Gurugram.<br />Football, Box Cricket & Pickleball.</p>
 
                 <div className="hero-cta">
                   <Button as="a" href={LINKS.playo} target="_blank" rel="noreferrer" variant="primary">
