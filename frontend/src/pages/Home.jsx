@@ -56,8 +56,8 @@ export default function Home() {
                   <Button as="a" href={LINKS.playo} target="_blank" rel="noreferrer" variant="primary">
                     Book on Playo
                   </Button>
-                  <Button as="a" href={LINKS.district} target="_blank" rel="noreferrer" variant="outline">
-                    Book on District
+                  <Button as="a" href={LINKS.hudle} target="_blank" rel="noreferrer" variant="outline">
+                    Book on Hudle
                   </Button>
                 </div>
               </Reveal>
