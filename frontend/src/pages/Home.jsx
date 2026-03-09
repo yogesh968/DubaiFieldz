@@ -39,33 +39,37 @@ export default function Home() {
 
   return (
     <>
-      {/* 1. Hero Section */}
-      <section className="hero" id="home">
-        <div className="hero-bleed" aria-label="Hero">
-          <div className="hero-video" aria-hidden="true">
-            <video autoPlay loop muted playsInline preload="auto" poster="/images/sport-football.jpg">
-              <source src="/videos/hero-bg.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <div className="container hero-inner">
-            <Reveal>
-                <h1 className="h1 hero-title">Elevate Your<br />Game.</h1>
-                <div className="hero-cta">
-                  <Button as="a" href={LINKS.playo} target="_blank" rel="noreferrer" variant="primary">
-                    Book on Playo
-                  </Button>
-                  <Button as="a" href={LINKS.hudle} target="_blank" rel="noreferrer" variant="primary">
-                    Book on Hudle
-                  </Button>
-                  <Button as="a" href={LINKS.district} target="_blank" rel="noreferrer" variant="primary">
-                    Book on District
-                  </Button>
-                </div>
-              </Reveal>
-            </div>
-          </div>
+{/* 1. Hero Section */}
+<section className="hero" id="home">
+  <div className="hero-bleed" aria-label="Hero">
+    <div className="hero-video" aria-hidden="true">
+      <video autoPlay loop muted playsInline preload="auto" poster="/images/sport-football.jpg">
+        <source src="/videos/hero-bg.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div className="container hero-inner">
+      <Reveal>
+        <h1 className="h1 hero-title">Elevate Your<br />Game.</h1>
+
+        <div className="hero-cta">
+          <Button as="a" href={LINKS.playo} target="_blank" rel="noreferrer" variant="primary">
+            Book on Playo
+          </Button>
+
+          <Button as="a" href={LINKS.hudle} target="_blank" rel="noreferrer" variant="primary">
+            Book on Hudle
+          </Button>
+
+          <Button as="a" href={LINKS.district} target="_blank" rel="noreferrer" variant="primary">
+            Book on District
+          </Button>
         </div>
-      </section>
+      </Reveal>
+    </div>
+
+  </div>
+</section>
 
       {/* 2. About Section */}
       <section className="section about" id="about">
