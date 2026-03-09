@@ -48,16 +48,17 @@ export default function Home() {
             </video>
           </div>
           <div className="container hero-inner">
-            <div className="hero-content">
-              <Reveal>
+            <<Reveal>
                 <h1 className="h1 hero-title">Elevate Your<br />Game.</h1>
-
                 <div className="hero-cta">
                   <Button as="a" href={LINKS.playo} target="_blank" rel="noreferrer" variant="primary">
                     Book on Playo
                   </Button>
-                  <Button as="a" href={LINKS.hudle} target="_blank" rel="noreferrer" variant="outline">
+                  <Button as="a" href={LINKS.hudle} target="_blank" rel="noreferrer" variant="primary">
                     Book on Hudle
+                  </Button>
+                  <Button as="a" href={LINKS.district} target="_blank" rel="noreferrer" variant="primary">
+                    Book on District
                   </Button>
                 </div>
               </Reveal>
